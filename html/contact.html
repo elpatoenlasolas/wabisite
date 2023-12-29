@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Wabi Sabi Digital Design Agency" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Wabi-Sabi || Digital Design Agency</title>
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- SDK for EmailJS -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("7cvW4ZPgFfDx-fadP");
+        })();
+    </script>
+
+</head>
+
+<body>
+
+
+    <!-- ==================== Start Loading ====================
+
+    <div class="loading">
+        <span>L</span>
+        <span>o</span>
+        <span>a</span>
+        <span>d</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+    </div>
+
+    <div id="preloader">
+    </div>
+
+     ==================== End Loading ==================== -->
+
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+    <!-- Circulo de scroll -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+
+    <!-- ==================== Start cursor ==================== -->
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- ==================== End cursor ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <div class="navbar-content"></div>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <!-- ==================== Start Header ==================== -->
+
+    <header class="contact-header fixed-slider hfixd valign">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-9 static">
+                    <div class="capt">
+                        <div class="parlx text-center">
+                            <h1 class="mb-10 fw-700">CONTACT</h1>
+                            <h5>Drop us a message, and let's start creating together</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== End Header ==================== -->
+
+
+    <!-- ==================== Start main-content ==================== -->
+
+    <div class="main-content">
+
+        <!-- ==================== Start Contact ==================== -->
+
+        <section class="contact section-padding-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form md-mb50">
+
+                            <h4 class="fw-700 color-font mb-50">Get In Touch</h4>
+                                <div id="formAlert"><h5>Your message has been sent!</h5></div>
+                                
+                                    <div id="contactForm">
+
+                                        <div class="form-group">
+                                            <input 
+                                            id="name" 
+                                            type="text" 
+                                            name="name" 
+                                            placeholder="Name" 
+                                            required="required">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input 
+                                            id="company" 
+                                            type="text" 
+                                            name="company" 
+                                            placeholder="Company" 
+                                            required="required">
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <input 
+                                            id="email" 
+                                            type="email" 
+                                            name="email" 
+                                            placeholder="Email" 
+                                            required="required">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <textarea 
+                                            id="message" 
+                                            name="message" 
+                                            placeholder="Message" 
+                                            rows="4" 
+                                            required="required"></textarea>
+                                        </div>
+
+                                        <div class="cont-form-btn">
+                                            <button type="submit" class="butn dark curve bord mt-30" onclick="sendMail(); Submit();">Send Message</button>
+                                        </div>
+
+                                    </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="cont-info">
+                            <h4 class="fw-700 color-font-bg mb-50">Contact Info</h4>
+                            <h3 class="wow" data-splitting>Let's chat.
+                            </h3>
+                            <div class="item mb-40">
+                                <h5><a href= "mailto:support@wabi-sabi.digital">support@wabi-sabi.digital</a></h5>
+                                <h5>+372 5350 8768</h5>
+                            </div>
+                            <h3 class="wow" data-splitting>Our Location
+                            </h3>
+                            <div class="item">
+                                <h6>Tallinn, Estonia.
+                                </h6>
+                            </div>
+                            <div class="social mt-50">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=61554046990035" class="icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a target="_blank" href="https://wa.me/message/THQNC4635UMXE1" class="icon" aria-label="Check out our WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/wabisabi_digital/" class="icon" aria-label="Check out our Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a target="_blank" href="https://www.behance.net/wabisabidigital" class="icon" aria-label="Check out our Behance">
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- ==================== End Contact ==================== -->
+
+             </div>
+           
+   <!-- ==================== Start Footer ==================== -->
+
+
+   <div class="footer-container"></div>
+
+<!-- ==================== End Footer ==================== -->
+       
+
+
+
+<!-- jQuery -->
+<script src="../js/jquery-3.0.0.min.js"></script>
+<script src="../js/jquery-migrate-3.0.0.min.js"></script>
+
+<!-- plugins -->
+<script src="../js/plugins.js"></script>
+<script src="https://kit.fontawesome.com/9f8e59e37c.js" crossorigin="anonymous"></script>
+
+<!-- custom scripts -->
+<script src="../js/scripts.js"></script>
+
+<!-- footer script -->
+<script defer src="../js/footerLoad.js"></script>
+
+<!-- navbar script -->
+<script defer src="../js/navbarLoad.js"></script>
+
+</body>
+
+</html>
